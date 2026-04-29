@@ -14,6 +14,7 @@ import { ErrorBoundary } from './src/components/ErrorBoundary';
 import { IslamicPattern } from './src/components/IslamicPattern';
 import { useFonts } from 'expo-font';
 import { PTSans_400Regular } from '@expo-google-fonts/pt-sans';
+import { Lustria_400Regular } from '@expo-google-fonts/lustria';
 
 export default function App() {
   const { loadData, isLoaded: habitsLoaded } = useHabitStore();
@@ -25,6 +26,7 @@ export default function App() {
 
   let [fontsLoaded] = useFonts({
     PTSans_400Regular,
+    Lustria_400Regular,
   });
 
   useEffect(() => {

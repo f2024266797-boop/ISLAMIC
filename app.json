@@ -25,9 +25,7 @@
         "RECEIVE_BOOT_COMPLETED",
         "VIBRATE",
         "ACCESS_COARSE_LOCATION",
-        "ACCESS_FINE_LOCATION",
-        "android.permission.ACCESS_COARSE_LOCATION",
-        "android.permission.ACCESS_FINE_LOCATION"
+        "ACCESS_FINE_LOCATION"
       ],
       "softwareKeyboardLayoutMode": "pan"
     },
@@ -42,9 +40,9 @@
         "expo-build-properties",
         {
           "android": {
-            "enableProguardInReleaseBuilds": true,
-            "enableShrinkResourcesInReleaseBuilds": true,
-            "enableMinifyInReleaseBuilds": true
+            "enableProguardInReleaseBuilds": false,
+            "enableShrinkResourcesInReleaseBuilds": false,
+            "enableMinifyInReleaseBuilds": false
           }
         }
       ],
