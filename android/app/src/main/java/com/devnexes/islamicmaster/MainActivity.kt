@@ -1,4 +1,4 @@
-package com.devnexes.islamictracker
+package com.devnexes.islamicmaster
 
 import android.os.Build
 import android.os.Bundle
